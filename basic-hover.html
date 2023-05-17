@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="htmlcss bootstrap menu, navbar, hover nav menu CSS examples" />
+<meta name="description" content="Bootstrap 5 navbar hover examples for any type of project, Bootstrap 5" />  
+
+<title>Demo - Bootstrap 5 hover dropdown sample. html code example </title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+
+<style type="text/css">
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
+/* ============ desktop view .end// ============ */
+
+</style>
+</head>
+<body>
+
+<header class="section-header py-4">
+<div class="container">
+	<h2>Demo page </h2> 
+</div>
+</header> <!-- section-header.// -->
+
+
+
+<div class="container">
+
+<!-- ============= COMPONENT ============== -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+ <div class="container-fluid">
+  <div class="collapse navbar-collapse" id="main_nav">
+	
+	<ul class="navbar-nav ms-auto">
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> About Us </a>
+		    <ul class="dropdown-menu dropdown-menu-end">
+			  <li><a class="dropdown-item" href="#"> History</a></li>
+			  <li><a class="dropdown-item" href="#"> Vision and mission </a></li>
+			  <li><a class="dropdown-item" href="#"> Objective </a></li>
+			  <li><a class="dropdown-item" href="#"> Message </a></li>
+		    </ul>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">department </a>
+		    <ul class="dropdown-menu dropdown-menu-end">
+			  <li><a class="dropdown-item" href="#">department of computing</a></li>
+			  <li><a class="dropdown-item" href="#">department of civil engneering</a></li>
+			  <li><a class="dropdown-item" href="#">department of eletrical engneering</a></li>
+			  <li><a class="dropdown-item" href="#">department of management & social science</a></li>
+			  <li><a class="dropdown-item" href="#">department of pharmacy</a></li>
+			  <li><a class="dropdown-item" href="#">department of life science</a></li>
+			  <li><a class="dropdown-item" href="#">department of technology</a></li>
+			  <li><a class="dropdown-item" href="#">department of human nutrition & life science</a></li>
+			  
+		    </ul>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Dropdown right </a>
+		    <ul class="dropdown-menu dropdown-menu-end">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+		    </ul>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Dropdown right </a>
+		    <ul class="dropdown-menu dropdown-menu-end">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+		    </ul>
+		</li>
+	</ul>
+  </div> <!-- navbar-collapse.// -->
+ </div> <!-- container-fluid.// -->
+</nav>
+
+<!-- ============= COMPONENT END// ============== -->
+
+
+
+</div><!-- container //  -->
+
+</body>
+</html>
